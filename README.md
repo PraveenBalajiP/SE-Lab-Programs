@@ -1,6 +1,11 @@
 # Software Engineering Labs
 
-**Name:** Praveen Balaji P  |  **SRN:** PES2UG24CS374  |  **Section:** G
+**Name:** Praveen Balaji P 
+
+**SRN:** PES2UG24CS374
+
+**Section:** G
+
 **Course:** Software Engineering, Dept. of CSE, PES University
 
 This repository contains my work for four Software Engineering lab assignments. Labs 1 to 3 build on one project, the **Alumni Mentorship & Mock Interview Platform**, and take it from requirements through Agile planning to architecture design. Lab 4 is a separate exercise on finding and fixing bugs in a small Python game with LLM assistance.
