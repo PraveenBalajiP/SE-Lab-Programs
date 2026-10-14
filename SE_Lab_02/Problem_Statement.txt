@@ -1,0 +1,42 @@
+SE LAB 02: Agile Backlog Creation & Sprint Simulation in Jira
+Project topic: Alumni Mentorship & Mock Interview Platform
+
+
+PROBLEM STATEMENT
+-----------------
+
+Use Jira to turn the functional requirements from Lab 1 into Agile backlog
+items. Then simulate a sprint and analyse the progress.
+
+Learning outcomes covered:
+  - Create Epics and User Stories in Jira using Agile conventions
+  - Prioritise backlog items by business value and user needs
+  - Estimate effort with Story Points (Fibonacci sequence)
+  - Apply Planning Poker as a collaborative estimation technique
+  - Simulate a sprint (To Do -> In Progress -> Done)
+  - Track progress with Jira's Burndown Chart
+  - Reflect on team performance and the Agile workflow
+
+Deliverables asked for in the handout:
+  - Screenshots of the backlog with Epics and User Stories, the story
+    point assignments, the active sprint board, and the burndown chart
+  - A short document answering the reflection questions
+
+
+FILES IN THIS FOLDER
+--------------------
+
+1. PES2UG24CS374_LAB-02_SE_PRAVEENBALAJIP.pdf
+   My submission (8 pages). It includes:
+     - A Jira space for the project
+     - All functional requirements added as Epics
+     - User Stories under each Epic, with descriptions and story points
+     - Sprint 1 (first 4 stories) and Sprint 2 (remaining stories),
+       started and completed
+     - Proof of sprint completion
+     - Burndown charts for Sprint 1 and Sprint 2
+     - Answers to the 4 reflection questions:
+         1. Did the estimates reflect the actual effort?
+         2. Was the backlog well prioritised?
+         3. How did the simulated sprint align with the plan?
+         4. What did the burndown chart show about team capacity?

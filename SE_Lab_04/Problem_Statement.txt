@@ -1,0 +1,41 @@
+SE LAB 04: Coin Collector Game, LLM-assisted Bug Fixing
+
+
+PROBLEM STATEMENT
+-----------------
+
+Use an LLM assistant to find and fix bugs in a small Python/Pygame game
+called "Coin Collector". Record the game before and after the fixes.
+
+[EDIT BEFORE PUBLISHING: this folder has no handout. Check that the
+statement above matches your lab sheet and adjust the wording if needed.]
+
+
+
+FILES IN THIS FOLDER
+--------------------
+
+1. coin_collector_game_with_bugs.mp4
+   Screen recording (about 9 seconds) of the original version. The player
+   moves a block around and collects coins to raise the score. This
+   version has only a score counter, with no lives, timer or obstacles.
+
+2. game_without_bugs.mp4
+   Screen recording (about 12 seconds) of the corrected version. It adds:
+     - A lives counter
+     - A countdown timer for each round
+     - Red obstacles to avoid
+     - Different types of coins
+     - A "Round Over / Final Score / Press R to Restart" screen
+
+3. LLM_Chat_Link.txt
+   A shared link to the LLM conversation used to find and fix the issues.
+
+
+
+PROJECT STRUCTURE SEEN IN THE RECORDINGS
+----------------------------------------
+
+Modules: main.py, game_engine.py, player.py, coin.py, collection.py,
+renderer.py, and requirements.txt. Built with Python 3.12 and Pygame 2.6.1.
+(The source code is not in this folder.)

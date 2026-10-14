@@ -1,0 +1,45 @@
+SE LAB 03: Architecture Selection & UML Component Diagram
+Project topic: Alumni Mentorship & Mock Interview Platform
+
+
+PROBLEM STATEMENT
+-----------------
+
+Choose a suitable software architecture for the Alumni Mentorship & Mock
+Interview Platform, justify the choice in writing, and model the system as
+a UML component diagram.
+
+
+
+FILES IN THIS FOLDER
+--------------------
+
+1. PES2UG24CS374_SE_Lab03.pdf
+   My submission (3 pages). It includes:
+
+   Architecture selection: Layered Architecture
+     - Presentation, Application/Business, and Data/Integration layers
+     - Two reasons for the choice:
+         1. The platform runs one sequential workflow (recommendation,
+            availability, booking, scorecards, history), so a layered
+            design keeps the business rules in one place.
+         2. It is a single integrated platform with one external
+            calendar/meeting integration. That makes layered simpler to
+            build, test and deploy than microservices.
+     - Security advantage: access control at the presentation and
+       application boundary, with the data layer restricting access to
+       profiles and scorecards
+     - Performance benefit: indexing and caching to meet the 3-second
+       response target
+     - Comparison with Microservices and Client-Server
+     - Component note: the handout's Order Manager and Payment Service
+       belong to its coffee-kiosk example. I replaced them with Booking &
+       Session Management and Mentor Recommendation & Profile Service.
+
+   UML component diagram
+     - Presentation layer: Student Portal, Mentor Portal, Admin Portal
+     - Business services layer: Mentor Recommendation & Profile Service,
+       Booking & Session Management, Scorecard & Feedback Service
+     - External integration layer: Calendar/Meeting Service,
+       Notification Service
+     - Data layer: User / Session Database

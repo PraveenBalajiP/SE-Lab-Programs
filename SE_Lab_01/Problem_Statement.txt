@@ -1,0 +1,48 @@
+SE LAB 01: Requirements Engineering & UML Use-Case Modelling
+
+PROBLEM STATEMENT
+-----------------
+Alumni Mentorship & Mock Interview Platform
+
+Connecting students with alumni working in specialised domains needs three
+things: an intelligent matching mechanism, availability-based calendar
+booking, and structured post-interview scorecard recording.
+
+Stakeholders / Actors: Student Mentee, Alumni Mentor
+
+Deliverables asked for in the handout:
+  1. A requirements table with exactly 5 Functional Requirements
+     (FR-001 to FR-005) and 2 Non-Functional Requirements (NFR-001 and
+     NFR-002). Each has ID, Type, Description, Priority, Acceptance
+     Criteria and Rationale.
+  2. A UML use-case diagram that models all actors and primary use cases,
+     with at least one <<include>> and one <<extend>> relationship.
+  3. A one-page use-case flow specification for one core use case, with
+     preconditions, postconditions, a main success scenario and one
+     alternate flow.
+
+FILES IN THIS FOLDER
+--------------------
+
+1. PES2UG24CS374_LAB-01_SE_PRAVEENBALAJIP.pdf
+   My submission, in three parts:
+
+   Part A: Requirements Table
+     - FR-001: Mentor recommendation by domain/skills, and booking
+     - FR-002: Mentors manage their availability slots
+     - FR-003: Session booking with calendar entries and a meeting link
+     - FR-004: Mentor records a structured interview scorecard
+     - FR-005: Students view past scorecards and session history
+     - NFR-001: Privacy, security and soft-deletion within 24 hours
+     - NFR-002: Recommendations and slots returned within 3 seconds
+       for at least 95% of requests
+
+   Part B: Actors and Use Cases
+     - Actors: Student Mentee, Alumni Mentor, Platform Administrator,
+       Calendar/Meeting Service
+     - The use cases for each actor, and the UML use-case diagram
+
+   Part C: Use-Case Flow Specification
+     - Use case: "Book Mentorship / Mock Interview Session"
+     - Preconditions, postconditions and the main success scenario
+     - Alternate flow: the selected slot is no longer available
