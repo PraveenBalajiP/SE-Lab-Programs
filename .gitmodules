@@ -1,3 +1,6 @@
 [submodule "SE_Lab_04/coin-collector"]
 	path = SE_Lab_04/coin-collector
 	url = https://github.com/PraveenBalajiP/SE_06_coin_collector.git
+[submodule "SE_Lab_05/SE_06_it_helpdesk"]
+	path = SE_Lab_05/SE_06_it_helpdesk
+	url = https://github.com/PraveenBalajiP/SE_06_it_helpdesk.git
