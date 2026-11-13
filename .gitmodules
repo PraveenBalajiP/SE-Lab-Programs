@@ -5,5 +5,5 @@
 	path = SE_Lab_05/SE_06_it_helpdesk
 	url = https://github.com/PraveenBalajiP/SE_06_it_helpdesk.git
 [submodule "SE_Lab_06_07/SE_06_event_ticket_tier"]
-	path = SE_Lab_06/SE_06_event_ticket_tier
+	path = SE_Lab_06_07/SE_06_event_ticket_tier
 	url = https://github.com/PraveenBalajiP/SE_06_event_ticket_tier.git
