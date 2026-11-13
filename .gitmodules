@@ -7,3 +7,6 @@
 [submodule "SE_Lab_06/SE_06_event_ticket_tier"]
 	path = SE_Lab_06/SE_06_event_ticket_tier
 	url = https://github.com/PraveenBalajiP/SE_06_event_ticket_tier.git
+[submodule "SE_Lab_06_07/SE_06_event_ticket_tier"]
+	path = SE_Lab_06_07/SE_06_event_ticket_tier
+	url = https://github.com/PraveenBalajiP/SE_06_event_ticket_tier.git
